@@ -12,6 +12,14 @@ module.exports = {
     },
 
     watch: process.argv[process.argv.length - 1] === 'development',
+    devServer: {
+        port: 8080,
+        historyApiFallback: {
+            index: 'index.html'
+        }
+     },
+
+    devtool: 'cheap-inline-module-source-map',
 
     module: {
         rules: [{
@@ -43,5 +51,5 @@ module.exports = {
         modules: [`${__dirname}/static_src`, 'node_modules'],
         extensions: ['.js', '.jsx'],
     },
-
+    
 };
