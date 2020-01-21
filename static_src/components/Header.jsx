@@ -24,7 +24,7 @@ export default class Header extends React.Component {
                     alignItems: 'center',
                 } }>
                     <Avatar color='white' style={ { marginRight: '10px' } } />
-                    
+                    <span>Гик</span>
                 </Link>
             </div>
        )

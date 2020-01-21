@@ -6,7 +6,7 @@ export default class Profile extends React.Component {
        return (
            <div>
                <h1>Профиль</h1>
-               <div>Fil</div>
+               <div>Гик</div>
                <div>geek@geekbrains.ru</div>
                <div>+7 999 999 99 99</div>
                <Link to='/'> ← Назад</Link>
